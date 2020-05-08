@@ -21,7 +21,7 @@ config = {
     'test_size': 0.2,
     'val_size': 0.1,
     'batch_size': 64,
-    'epochs': 50,
+    'epochs': 10,
 
     'num_used_classes': 5, #149,
     'model_name': 'resnet50',
