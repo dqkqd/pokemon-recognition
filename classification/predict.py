@@ -86,7 +86,7 @@ def get_output(output):
 class Item_recognition(BaseModel):
     image: str
 
-@app.post('/chatbot/recognition')
+@app.post('/recognition')
 async def recognition(item: Item_recognition):
     image = str2img(item.image)
     cv2.imwrite('input.png', image)
@@ -97,7 +97,7 @@ async def recognition(item: Item_recognition):
 if __name__ == "__main__":
     
 
-    uvicorn.run("predict:app", host="0.0.0.0", port=6996, log_level="info", reload="true")
+    uvicorn.run("predict:app", host="0.0.0.0", port=5000, log_level="info", reload="true")
 
 
 
