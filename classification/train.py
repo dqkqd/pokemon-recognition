@@ -132,26 +132,20 @@ def train_model(config):
 
 if __name__ == "__main__":
     models = [
-        'vgg16',
-        
+        #'vgg16',
         #'vgg19',
-        'vgg16_bn',
+        #'vgg16_bn',
         #'vgg19_bn', 
-
-        'resnet50',
-        
-        'resnet101',
-        
+        #'resnet50',
+        #'resnet101',
         #'resnet152',
-
-        'resnext50_32x8d',
-        #'resnext101_32x8d',
-        'wide_resnet50_2',
+        #'resnext50_32x8d',
+        'resnext101_32x8d',
+        #'wide_resnet50_2',
         #'wide_resnet101_2',
-
-        'densenet121',
-        'densenet161',
-        'densenet169',
+        #'densenet121',
+        #'densenet161',
+        #'densenet169',
         #'densenet201',
     ]
 
