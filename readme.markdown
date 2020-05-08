@@ -4,6 +4,8 @@ Small project to recognize pokemon on Android.
 
 ![](classification/demo.png)
 
+#Video
+
 
 ### Organization
 
