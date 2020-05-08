@@ -1,6 +1,6 @@
 # Pokemon Recognition
 
-Small project to recognize pokemon on Android.
+Fancy project to recognize pokemon on Android device.
 
 ![](classification/demo.png)
 
@@ -12,7 +12,7 @@ Small project to recognize pokemon on Android.
 - `download.sh` download Pokemons dataset;
 - `preprocessing.py` preprocess downloaded dataset;
 - `train.py` train classifier model;
-
+- `predict.py` create server that Android app can request API;
 
 
 
